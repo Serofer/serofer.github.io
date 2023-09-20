@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+body {
+    background:#202731;
+    width:60vm;
+    margin:auto;
+}
+ul {
+    float:left;
+}
+li {
+    display:inline-block;
+    border-radius:20px;
+    height:30px;
+    
+}
+a {
+    text-decoration: none;
+    padding:10px;
+}
+a:hover {
+    background-color:grey;
+}
