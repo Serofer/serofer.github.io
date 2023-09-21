@@ -15,6 +15,7 @@ ul {
     position:fixed;
     right:20vw;
     margin:20px;
+    text-decoration:none;
 }
 li {
     display:inline-block;
@@ -39,8 +40,10 @@ a:visited {
 }
 .copy {
     color:white;
+    text-align:center;
 }
 .description {
+    display:block;
     position:relative;
     top:100px;
     width:60vw;
@@ -51,5 +54,11 @@ a:visited {
 
 }
 footer {
+    position:absolute;
+    margin:auto;
+    width:60vw;
+    bottom:0px;
+    padding:10px;
+    border-radius:30px;
     background-color:aqua;
 }
