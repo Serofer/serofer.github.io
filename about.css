@@ -33,6 +33,7 @@ li {
 }
 .menu:hover {
     background-color:grey;
+    border-radius:5px;
 
 }
 a:visited {
@@ -53,12 +54,11 @@ a:visited {
 	border-radius:40px;
 
 }
-footer {
+.footer {
     position:absolute;
-    margin:auto;
-    width:60vw;
+    width:30vw;
+    left:35%;
     bottom:0px;
     padding:10px;
-    border-radius:30px;
-    background-color:aqua;
+    
 }

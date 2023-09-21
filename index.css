@@ -6,7 +6,7 @@
 }
 body {
     background:darkgrey;
-    width:60vw;
+    
     margin:auto;
     color:powderblue;
 }
@@ -15,11 +15,13 @@ ul {
     position:fixed;
     right:20vw;
     margin:20px;
+    
     text-decoration:none;
+    
 }
 li {
     display:inline-block;
-    border-radius:20px;
+    
     text-decoration:none;
     height:30px;
     color:powderblue;
@@ -29,14 +31,23 @@ a {
     text-decoration: none;
     padding:10px;
     font-size:130%;
+   
 
 }
 a:hover {
     background-color:grey;
+    border-radius:5px;
+    
 
 }
 a:visited {
 	text-decoration:none;
+    
+}
+.text {
+    text-decoration:none;
+    font-size:100%;
+    padding:0px;
 }
 .copy {
     color:white;
@@ -53,12 +64,12 @@ a:visited {
 	border-radius:40px;
 
 }
-footer {
+.footer {
     position:absolute;
-    margin:auto;
-    width:60vw;
+    
+    width:30vw;
+    left:35%;
     bottom:0px;
     padding:10px;
-    border-radius:30px;
-    background-color:aqua;
+    
 }
