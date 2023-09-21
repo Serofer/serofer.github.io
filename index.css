@@ -2,32 +2,54 @@
     margin:0;
     padding:0;
     
+    
 }
 body {
-    background:#202731;
-    width:60vm;
+    background:darkgrey;
+    width:60vw;
     margin:auto;
+    color:powderblue;
 }
 ul {
     float:left;
     position:fixed;
+    right:20vw;
+    margin:20px;
 }
 li {
     display:inline-block;
     border-radius:20px;
+    text-decoration:none;
     height:30px;
+    color:powderblue;
     
 }
 a {
     text-decoration: none;
     padding:10px;
+    font-size:130%;
+
 }
 a:hover {
     background-color:grey;
+
+}
+a:visited {
+	text-decoration:none;
+}
+.copy {
+    color:white;
 }
 .description {
-    width:60vm;
+    position:relative;
+    top:100px;
+    width:60vw;
     margin:auto;
     background-color:grey;
+	padding:30px;
+	border-radius:40px;
 
+}
+footer {
+    background-color:aqua;
 }
