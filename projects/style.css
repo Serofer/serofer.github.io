@@ -27,10 +27,9 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: var(--bg-main);
-    color: var(--text);
-    font-size: 16px;
+    width:60%;
+    margin-left: 20%;
+    margin-right:20%;
 }
 .copy {
     margin:auto;
@@ -53,8 +52,7 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width: 90%;
-    max-width: 1280px;
+    width: 100%;
 }
 
 .hide {
@@ -75,7 +73,7 @@ h2 {
     margin: 0;
 }
 
-img {
+.img {
     border: 2px solid var(--accent);
     box-shadow:
         0 0px 6px var(--accent),
@@ -84,8 +82,10 @@ img {
     height: auto;
 
 .home {
+    border:0px;
     border-radius:50%;
     width:20%;
+    height:20%;
 }
     
 }
