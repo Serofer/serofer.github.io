@@ -26,6 +26,14 @@ body {
     width:60%; 
     margin-left:20%;
     margin-right:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text);
+    font-size: 16px;
 }
 .copy {
     margin:auto;
@@ -77,6 +85,7 @@ img {
         0 0px 6px var(--accent);
     max-width: 100%;
     height: auto;
+
 .home {
     border-radius:50%;
     width:20%;
@@ -101,6 +110,20 @@ a:hover {
 ul {
     list-style: none;
     padding: 0;
+}
+
+.filter-repos,
+input {
+    background: var(--bg-user);
+    width: 50%;
+    border-radius: 20px;
+    min-width: 300px;
+    margin-top: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 2px solid var(--accent);
+    color: var(--text);
+    text-align: center;
 }
 
 .user-info {
