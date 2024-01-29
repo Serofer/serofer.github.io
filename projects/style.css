@@ -29,7 +29,6 @@ body {
     /*display: flex;*/
     align-items: center;
     justify-content: center;
-    margin: auto;
     color: var(--text);
     font-size: 16px;
 }
@@ -57,13 +56,6 @@ h1 {
     display: none !important;
 }
 */
-small {
-    width: 100%;
-    text-align: center;
-    display: block;
-    margin-bottom: 20px;
-}
-
 h2 {
     width: 100%;
     text-align: center;
