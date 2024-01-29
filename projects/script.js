@@ -3,7 +3,7 @@ const maxPages = 1;
 const hideForks = true;
 const repoList = document.querySelector('.repo-list');
 const reposSection = document.querySelector('.repos');
-const filterInput = document.querySelector('.filter-repos');
+//const filterInput = document.querySelector('.filter-repos');
 
 // get information from github profile
 const getProfile = async () => {
@@ -22,6 +22,12 @@ const getProfile = async () => {
 getProfile();
 
 // display infomation from github profile
+/* It should display following things:
+    Total repos
+    user name, bio
+    languages used
+    what I'm learning
+*/
 const displayProfile = (profile) => {
     const userInfo = document.querySelector('.user-info');
     userInfo.innerHTML = `
@@ -70,7 +76,7 @@ getRepos();
 // display list of all user's public repos
 const displayRepos = (repos) => {
     const userHome = `https://github.com/${username}`;
-    filterInput.classList.remove('hide');
+    //filterInput.classList.remove('hide');
     for (const repo of repos) {
         if (repo.fork && hideForks) {
             continue;
@@ -130,6 +136,7 @@ filterInput.addEventListener('input', (e) => {
         }
     }
 });*/
+
 
 // for programming language icons
 const devicons = {
