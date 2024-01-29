@@ -21,12 +21,25 @@
 
 body {
     width:60%;
+    position:relative;
+    height:100vh;
+    margin-left:20%;
+    margin-right:20%;
+
     /*display: flex;*/
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin: auto;
     color: var(--text);
     font-size: 16px;
+}
+
+.nav-item {
+    font-size:150%;
+}
+
+h1 {
+    margin-top:2vw;
 }
 
 .container {
@@ -44,11 +57,6 @@ body {
     display: none !important;
 }
 */
-h1 {
-    color: var(--accent);
-    margin-bottom: 4px;
-}
-
 small {
     width: 100%;
     text-align: center;
@@ -63,7 +71,7 @@ h2 {
     margin: 0;
 }
 
-img {
+.avatar {
     border: 2px solid var(--accent);
     box-shadow:
         0 0px 6px var(--accent),
@@ -87,7 +95,7 @@ a:hover {
     margin-right: 8px;
 }
 
-ul {
+.repo-list {
     list-style: none;
     padding: 0;
 }
@@ -230,6 +238,7 @@ h3 {
     }
 }
 
+
 footer {
     position: absolute; 
     bottom: 0; 
@@ -237,7 +246,13 @@ footer {
     z-index: 10;
 }
 
-.proflie {
+.profile {
     width:5%;
     border-radius:50%;
 }
+
+.copy {
+    margin:auto;
+    text-align:center;
+}
+
