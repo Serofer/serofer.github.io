@@ -99,7 +99,7 @@ const displayRepos = (repos) => {
 
         if (repo.language) {
             listItem.innerHTML += `<a href="${langUrl}">
-            <span style="color:#fff;">${devicons[repo.language]}Sign</span></a>`;
+            <span style="color:#fff;">${devicons[repo.language]}</span></a>`;
             //alert("existing language");
         }
 
