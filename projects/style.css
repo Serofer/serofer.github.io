@@ -23,9 +23,6 @@
 }
 
 body {
-    width:60%; 
-    margin-left:20%;
-    margin-right:20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,4 +224,31 @@ h3 {
 .repo-list p {
     padding: 0em 0.5em;
     margin: 0.5em 0;
+}
+
+@media (min-width: 700px) {
+    .user-info div {
+        width: 45%;
+        text-align: left;
+    }
+
+    .repo-list {
+        justify-content: space-between;
+    }
+
+    .repo-list li {
+        width: 48%;
+    }
+}
+
+@media (max-width: 700px) {
+    .user-info div p {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .repo-list li {
+        width: 30%;
+    }
 }
