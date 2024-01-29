@@ -3,7 +3,7 @@ const maxPages = 1;
 const hideForks = true;
 const repoList = document.querySelector('.repo-list');
 const reposSection = document.querySelector('.repos');
-const filterInput = document.querySelector('.filter-repos');
+//const filterInput = document.querySelector('.filter-repos');
 
 // get information from github profile
 const getProfile = async () => {
@@ -115,6 +115,7 @@ const displayRepos = (repos) => {
 };
 
 // dynamic search
+/*
 filterInput.addEventListener('input', (e) => {
     const search = e.target.value;
     const repos = document.querySelectorAll('.repo');
@@ -128,7 +129,7 @@ filterInput.addEventListener('input', (e) => {
             repo.classList.add('hide');
         }
     }
-});
+});*/
 
 // for programming language icons
 const devicons = {
