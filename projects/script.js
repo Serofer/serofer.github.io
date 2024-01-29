@@ -114,7 +114,7 @@ const displayRepos = (repos) => {
     }
 };
 
-/* dynamic search
+// dynamic search
 filterInput.addEventListener('input', (e) => {
     const search = e.target.value;
     const repos = document.querySelectorAll('.repo');
@@ -128,7 +128,7 @@ filterInput.addEventListener('input', (e) => {
             repo.classList.add('hide');
         }
     }
-});*/
+});
 
 // for programming language icons
 const devicons = {
