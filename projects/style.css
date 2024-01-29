@@ -13,11 +13,6 @@
     }
 }
 
-* {
-    box-sizing: border-box;
-}
-
-
 
 body {
     width:60%;
@@ -45,7 +40,6 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width: 100%;
 }
 
 /*
@@ -87,7 +81,7 @@ a:hover {
 
 .repo-list {
     list-style: none;
-    padding: 0;
+    padding: 5vw;
 }
 
 .user-info {
@@ -141,7 +135,7 @@ input {
     text-align: center;
 }*/
 
-.repos {
+/*.repos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -150,7 +144,7 @@ input {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-bottom: 4em;
-}
+}*/
 
 h3 {
     margin: 4px;
