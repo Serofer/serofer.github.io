@@ -70,7 +70,7 @@ getRepos();
 // display list of all user's public repos
 const displayRepos = (repos) => {
     const userHome = `https://github.com/${username}`;
-    filterInput.classList.remove('hide');
+    //filterInput.classList.remove('hide');
     for (const repo of repos) {
         if (repo.fork && hideForks) {
             continue;
