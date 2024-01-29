@@ -94,7 +94,6 @@ const displayRepos = (repos) => {
         if (repo.language) {
             listItem.innerHTML += `<a href="${langUrl}">
             <span>${devicons[repo.language]}</span></a>`;
-            console.log(devicons[repo.language]);
         }
 
         if (repo.forks_count > 0) {
