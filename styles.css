@@ -37,3 +37,7 @@ img {
 {
 
 }
+button {
+    align-self:right;
+    margin-right:0;
+}
