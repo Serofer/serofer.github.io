@@ -16,7 +16,10 @@ h1 {
 li {
     font-size:150%;
 }
-
+#main-nav {
+    align-items: right;
+    margin-right:0;
+}
 img {
     border-top-left-radius:20%;
     border-top-right-radius:20%;
