@@ -98,9 +98,10 @@ footer {
   i {
     color: white;
   }
-  .footer-items:hover {
-    width:110%;
-  }
+ i:hover {
+    border:2px solid white;
+    border-radius:20%;
+ }
   .footer-copyright {
     text-align:center;
   }
