@@ -18,6 +18,7 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   padding: 10px;
+  position: relative;
 }
 img {
   border-top-left-radius: 20%;
@@ -74,6 +75,9 @@ button {
 footer {
   list-style-type: none;
   text-align: center;
+  margin-top: 1rem;
+  position: absolute;
+  bottom: 0px;
   margin-top: 1rem;
 }
 
