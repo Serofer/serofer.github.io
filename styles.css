@@ -1,10 +1,10 @@
-body {
+/*body {
     width:60%; 
     margin-left:20%;
     margin-right:20%;
     position:relative;
     height:100%;
-}
+}*/
 .copy {
     margin:auto;
     text-align:center;
@@ -26,7 +26,7 @@ img {
     width:40%;
 }
 
-footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
