@@ -13,14 +13,26 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item" ><a href="index.html"><img src="github_profile.jpeg" alt="HOME_PROFILE"></a></li>
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="projects/index.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-xxl">
+            <a href="index.html" class="navbar-brand">
+                <img src="github_profile.jpeg" alt="HOME_PROFILE">
+            </a>
+            
+        </div>
+        <button class="navbar-togger" type="button" data-bs-toggle="collapse"
+        data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects/index.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+        </div>
     </nav>
     <div class="description">
         <h1>My Website: Serofer</h1>
