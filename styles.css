@@ -20,6 +20,12 @@ li {
     align-items: right;
     margin-right:0;
 }
+
+#grid-container {
+    display:grid;
+    grid-template-columns:1fr;
+    padding:10px;
+}
 img {
     border-top-left-radius:20%;
     border-top-right-radius:20%;
