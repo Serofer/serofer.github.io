@@ -1,17 +1,9 @@
-@media (prefers-color-scheme: light) {
-    :root {
-        --text: #151515;
-        --accent: #151515;
-    }
+root {
+    --text: #fff;
+    --accent: #fff;
+
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text: #e5e5e5;
-        --accent: #fff;
-
-    }
-}
 
 
 body {
@@ -186,6 +178,7 @@ h3 {
 
 .link-btn:hover {
     background: var(--accent);
+    color:#000;
     border: 2px solid var(--text);
     transform: scale(1.1);
 }
