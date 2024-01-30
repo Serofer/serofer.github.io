@@ -100,8 +100,7 @@ const displayRepos = (repos) => {
             listItem.innerHTML += `<a href="${starsUrl}">
             <span>${devicons['Git']} ${repo.forks_count}</span></a>`;
         }
-        console.log(repo.homepage);
-        console.log("Should have printed repo.homepage");
+        
         if (repo.homepage && repo.homepage !== '') {//doesn't work yet
             listItem.innerHTML += `<br /> <br />
             <a class="link-btn" href=${repo.html_url}>Code ${devicons['Github']}</a>
