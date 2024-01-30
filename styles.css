@@ -28,6 +28,9 @@ img {
     border-bottom-right-radius: 20%;
     width:75px;
 }
+img:hover {
+    border: 2px solid white;
+}
 /*.navbar-brand
 {
     width:30%;
