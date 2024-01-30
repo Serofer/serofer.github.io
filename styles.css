@@ -54,6 +54,9 @@ button {
         top:1rem;
         right:1rem;
     }
+    h1 {
+        margin-top:10%;
+    }
 }
 
 footer {
