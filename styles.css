@@ -1,8 +1,17 @@
+html {
+    height: 100%;
+    box-sizing:border-box;
+
+}
+
 body {
     width:60%; 
     margin-left:20%;
     margin-right:20%;
     position:relative;
+    min-height:100%;
+    padding-bottom:1rem;
+    box-sizing:inherit;
 }
 .copy {
     margin:auto;
@@ -64,7 +73,13 @@ button {
 }
 footer {
     list-style-type: none;
+    text-align:center;
     margin-top: auto;
+    position:absolute;
+    right:0;
+    left:0;
+    bottom:0;
+
   }
 
 .footer-items {
@@ -85,5 +100,8 @@ footer {
   }
   .footer-items:hover {
     width:110%;
+  }
+  .footer-copyright {
+    text-align:center;
   }
 
