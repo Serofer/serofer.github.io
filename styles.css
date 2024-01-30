@@ -54,23 +54,29 @@ img:hover {
     margin-right:0;
 }
 
-@media (max-width:1000px)
-{
-    img {
-        width:50px;
-        position:relative;
-        left:-20%;
-        top:0px;
-        padding:2%;
-    }
-    .navbar-nav {
-        align-items:center;
-    }
-}
 button {
     align-self:right;
     margin-right:0;
 }
+
+@media (max-width:1000px)
+{
+    img {
+        width:50px;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+    .navbar-nav {
+        align-items:center;
+    }
+    button {
+        position:absolute;
+        top:1rem;
+        right:1rem;
+    }
+}
+
 footer {
     list-style-type: none;
     text-align:center;
