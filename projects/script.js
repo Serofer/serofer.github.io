@@ -87,27 +87,27 @@ const displayRepos = (repos) => {
             <span>${repo.description}</span> <br/><br/>`;
 
         if (repo.stargazers_count > 0) {
-            listItem.innerHTML += `<a href="${starsUrl}">
+            listItem.innerHTML += `<a target="_blank" href="${starsUrl}">
             <span>⭐ ${repo.stargazers_count}</span></a>`;
         }
 
         if (repo.language) {
-            listItem.innerHTML += `<a href="${langUrl}">
+            listItem.innerHTML += `<a target="_blank" href="${langUrl}">
             <span>${devicons[repo.language]}</span></a>`;
         }
 
         if (repo.forks_count > 0) {
-            listItem.innerHTML += `<a href="${starsUrl}">
+            listItem.innerHTML += `<a target="_blank" href="${starsUrl}">
             <span>${devicons['Git']} ${repo.forks_count}</span></a>`;
         }
         
         if (repo.homepage && repo.homepage !== '') {//doesn't work yet
             listItem.innerHTML += `<br /> <br />
-            <a class="link-btn" href=${repo.html_url}>Code ${devicons['Github']}</a>
-            <a class="link-btn" href=${repo.homepage}>Live ${devicons['Chrome']}</a> <br />`;
+            <a class="link-btn" target="_blank" href=${repo.html_url}>Code ${devicons['Github']}</a>
+            <a class="link-btn" target="_blank" href=${repo.homepage}>Live ${devicons['Chrome']}</a> <br />`;
         } else {
             listItem.innerHTML += `<br /> <br />
-            <a class="link-btn" href=${repo.html_url}>View Project ${devicons['Github']}</a><br />`;
+            <a class="link-btn" target="_blank" href=${repo.html_url}>View Project ${devicons['Github']}</a><br />`;
         }
 
         repoList.append(listItem);
